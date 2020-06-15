@@ -1,0 +1,24 @@
+{
+  "name": "nivoNext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build": "build-storybook -c .storybook -o build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nivo/pie": "^0.62.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  }
+}
